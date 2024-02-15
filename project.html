@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поздравление с Днем Валентина</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f7f7f7;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #e53935;
+        }
+        p {
+            color: #333;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .heart {
+            color: #e53935;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Моя любимая Мария Рогозная!</h1>
+        <p>Поздравляю тебя с Днем Валентина! Желаю оставаться такой-же красивой, быть радостной и счастливой, слушать своих родителей они у тебя очень хорошие. Люблю тебя!!.</p>
+        <p>С любовью, <br>Никита. нажми на сердечко</p>
+        <p class="heart" id="heart">❤️</p>
+    </div>
+    <script>
+        document.getElementById("heart").addEventListener("click", function() {
+            window.location.href = "love.html";
+        });
+    </script>
+</body>
+</html>
